@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="base.definition" template="/resources/jsp/layout.jsp">
+		<put-attribute name="title" value="PILLOW TALK" />
+		<put-attribute name="header" value="/resources/jsp/header.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/resources/jsp/footer.jsp" />
+	</definition>
+
+	
+
+	<definition name="homepage" extends="base.definition">
+		<put-attribute name="body" value="/resources/jsp/homepage.jsp" />
+	</definition>
+	
+	
+	
+
+	<definition name="home" extends="base.definition">
+		<put-attribute name="body" value="/resources/jsp/home.jsp" />
+	</definition>
+
+	<definition name="product_list_page" extends="base.definition">
+		<put-attribute name="body" value="/resources/jsp/product_list_page.jsp" />
+	</definition>
+
+	<definition name="product_details" extends="base.definition">
+		<put-attribute name="body" value="/resources/jsp/product_details.jsp" />
+	</definition>
+
+	<definition name="cart_page" extends="base.definition">
+		<put-attribute name="body" value="/resources/jsp/cart_page.jsp" />
+	</definition>
+
+	<definition name="emptycart_page" extends="base.definition">
+		<put-attribute name="body" value="/resources/jsp/emptycart_page.jsp" />
+	</definition>
+
+	<definition name="checkout_login" extends="base.definition">
+		<put-attribute name="body" value="/resources/jsp/checkout_login.jsp" />
+	</definition>
+
+	<definition name="checkout_page" extends="base.definition">
+		<put-attribute name="body" value="/resources/jsp/checkout_page.jsp" />
+	</definition>
+
+	<definition name="checkout_page" extends="base.definition">
+		<put-attribute name="body" value="/resources/jsp/checkout_page.jsp" />
+	</definition>
+
+	<definition name="placeorder_page" extends="base.definition">
+		<put-attribute name="body" value="/resources/jsp/placeorder_page.jsp" />
+	</definition>
+	
+	
+	<definition name="profilepage" extends="base.definition">
+		<put-attribute name="body" value="/resources/jsp/profilepage.jsp" />
+	</definition>
+	<definition name="loginregister" extends="base.definition">
+		<put-attribute name="body" value="/resources/jsp/loginregister.jsp" />
+	</definition>
+	
+	<definition name="" extends="base.definition">
+		<put-attribute name="body" value="/resources/jsp/cookies.jsp" />
+	</definition>
+	
+	
+	<definition name="privacy.jsp" extends="base.definition">
+		<put-attribute name="body" value="/resources/jsp/privacy.jsp" />
+	</definition>
+	
+	<definition name="terms" extends="base.definition">
+		<put-attribute name="body" value="/resources/jsp/terms.jsp" />
+	</definition>
+	
+	<definition name="aboutus" extends="base.definition">
+		<put-attribute name="body" value="/resources/jsp/aboutus.jsp" />
+	</definition>
+	
+	<definition name="registerlogin" extends="base.definition">
+		<put-attribute name="body" value="/resources/jsp/registerlogin.jsp" />
+	</definition>
+	
+	<definition name="regRes" extends="base.definition">
+		<put-attribute name="body" value="/resources/jsp/regRes.jsp" />
+	</definition>
+	
+	<definition name="loginRes" extends="base.definition">
+		<put-attribute name="body" value="/resources/jsp/loginRes.jsp" />
+	</definition>
+
+</tiles-definitions>
